@@ -30,6 +30,23 @@ func main() {
 		Address:  "Rua 01",
 	}
 
+	// slices
+	s := make([]string, 0)
+	s = append(s, "Italo")
+	s = append(s, "Rafael")
+
+	s2 := make([]int8, 2)
+	s2[0] = 1
+	s2[1] = 2
+	s2 = append(s2, 3)
+
+	//array
+	var a [2]bool
+	a[0] = true
+	a[1] = false
+
 	fmt.Println(name, age, document)
 	fmt.Println(p)
+	fmt.Println(s, s2, len(s2))
+	fmt.Println(a, len(a))
 }
