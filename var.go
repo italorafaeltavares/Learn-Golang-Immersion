@@ -6,8 +6,8 @@ import "fmt"
 // var documento string = "000.000.000-00"
 
 var (
-	idade     uint8  = 32
-	documento string = "000.000.000-00"
+	age      uint8  = 32
+	document string = "000.000.000-00"
 )
 
 // struct
@@ -21,7 +21,7 @@ type Person struct {
 
 func main() {
 	// var nome string = "Italo Rafael"
-	nome := "Italo Rafael"
+	name := "Italo Rafael"
 
 	p := Person{
 		Name:     "Italo Rafael",
@@ -30,6 +30,6 @@ func main() {
 		Address:  "Rua 01",
 	}
 
-	fmt.Println(nome, idade, documento)
+	fmt.Println(name, age, document)
 	fmt.Println(p)
 }
