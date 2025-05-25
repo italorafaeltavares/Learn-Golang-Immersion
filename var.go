@@ -2,8 +2,8 @@ package main
 
 import "fmt"
 
-// var idade uint8 = 32
-// var documento string = "000.000.000-00"
+// var age uint8 = 32
+// var document string = "000.000.000-00"
 
 var (
 	age      uint8  = 32
@@ -20,7 +20,7 @@ type Person struct {
 }
 
 func main() {
-	// var nome string = "Italo Rafael"
+	// var name string = "Italo Rafael"
 	name := "Italo Rafael"
 
 	p := Person{
